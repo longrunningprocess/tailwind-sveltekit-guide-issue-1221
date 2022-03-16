@@ -49,3 +49,25 @@ Next steps:
 2.  Added modifier to make the `h1` bigger on `md` viewports and above, i.e., `@apply md:text-9xl;` and received `Semicolon or block is expected` error:
 
 ![image](https://user-images.githubusercontent.com/4412848/158601480-7aeb3fc9-03f7-4546-8cb1-f1c6bec865df.png)
+
+
+## Installed Tailwind with https://github.com/svelte-add/tailwindcss
+
+1. `npx svelte-add@latest tailwindcss`
+
+This wasn't a perfectly seamless experience, but the relevant difference is the addition of `svelte-preprocess`and the adjustment to `svelte.config.js`:
+
+```js
+import preprocess from "svelte-preprocess";
+...
+
+  preprocess: [
+    preprocess({
+      postcss: true,
+    }),
+  ],
+
+...
+```
+
+and this resolves the error.
