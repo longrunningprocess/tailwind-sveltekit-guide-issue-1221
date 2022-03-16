@@ -39,3 +39,8 @@ Next steps:
 ```
 
 2. Followed "Next steps:" and demo app was up and running on http://localhost:3000
+
+## Followed https://tailwindcss.com/docs/guides/sveltekit to get Tailwind installed
+
+1.  Updated `index.svelte` to make an `h1` really big using tailwind `@apply text-9xl;`
+
