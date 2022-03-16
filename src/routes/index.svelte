@@ -41,7 +41,7 @@
 	h1 {
 		width: 100%;
 
-		@apply text-9xl;
+		@apply md:text-9xl;
 	}
 
 	.welcome {
