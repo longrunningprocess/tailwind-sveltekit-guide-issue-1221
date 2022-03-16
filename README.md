@@ -55,7 +55,9 @@ Next steps:
 
 1. `npx svelte-add@latest tailwindcss`
 
-This wasn't a perfectly seamless experience, but the relevant difference is the addition of `svelte-preprocess`and the adjustment to `svelte.config.js`:
+This wasn't a perfectly seamless experience but the relevant difference is the addition of `svelte-preprocess`and the adjustment to `svelte.config.js`:
+
+https://github.com/longrunningprocess/tailwind-sveltekit-guide-issue-1221/commit/342827daedf44a73e6175fc5e4c94359b5606984#diff-6317e218ea40a2a9b47af98e100e81c06f9c0abff66737e6ca06ec4b29402242
 
 ```js
 import preprocess from "svelte-preprocess";
